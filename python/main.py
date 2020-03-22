@@ -39,6 +39,12 @@ def get_cats():
     return jsonify(posts_with_cats)
 
 
+@app.route('/unwatched_cats/')
+def get_cats():
+    posts_with_cats = mongo.get_all_unwatched_cats()
+    return jsonify(posts_with_cats)
+
+
 if __name__ == '__main__':
     download_thread = threading.Thread(target=parse_insta)
     download_thread.start()
