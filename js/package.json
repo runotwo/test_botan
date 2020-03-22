@@ -1,0 +1,12 @@
+{
+  "name": "test_insta_js",
+  "version": "1.0.0",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "instagram-private-api": "^1.39.1"
+  },
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "grpc": "^1.24.2"
+  }
+}

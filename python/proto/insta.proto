@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package insta;
+
+service InstaService {
+    rpc GetProfiles (ProfilesData) returns (ProfilesData);
+}
+
+message Post {
+    enum StoryType {
+        PHOTO = 0;
+        VIDEO = 1;
+    }
+    StoryType type = 1;
+    string link = 2;
+    string inst_id = 3;
+}
+
+message Profile {
+    int64 id = 1;
+    string username = 2;
+    string name = 3;
+    bool is_private = 4;
+    repeated Post posts  = 5;
+}
+
+message ProfilesData {
+    repeated Profile profiles = 1;
+}
