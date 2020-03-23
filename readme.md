@@ -1,3 +1,5 @@
+Барбос низкий лосс Back Антонов Денис
+
 fill USERNAME and PASSWORD in `js/main.js`
 
 run `js/main.js`
