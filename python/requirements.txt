@@ -33,7 +33,7 @@ pycparser==2.20
 pymongo==3.10.1
 python-telegram-bot==12.4.2
 PyVirtualDisplay==0.2.5
-PyYAML==5.3.1
+PyYAML==5.4
 regex==2020.2.20
 requests==2.11.1
 requests-toolbelt==0.7.0
