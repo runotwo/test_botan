@@ -7,6 +7,6 @@
   },
   "devDependencies": {
     "bluebird": "^3.7.2",
-    "grpc": "^1.24.2"
+    "grpc": "^1.24.9"
   }
 }
