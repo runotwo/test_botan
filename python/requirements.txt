@@ -25,7 +25,7 @@ jsonschema==2.6.0
 MarkupSafe==1.1.1
 MeaningCloud-python==1.2.2
 moviepy==0.2.3.2
-numpy==1.18.2
+numpy==1.22.0
 Pillow==7.0.0
 plyer==1.4.2
 protobuf==3.11.3
